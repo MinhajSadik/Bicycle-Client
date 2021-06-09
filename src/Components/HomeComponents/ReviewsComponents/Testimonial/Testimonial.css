@@ -1,0 +1,11 @@
+.testimonial {
+	margin-top: 40px;
+	height: 700px;
+	background-color: #1c1c18;
+	padding: 20px;
+}
+.TestimonialHeader {
+	color: white;
+	text-align: center;
+	justify-content: center;
+}

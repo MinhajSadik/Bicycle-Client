@@ -1,0 +1,15 @@
+.reviewPart {
+	color: cornsilk;
+	font-weight: bold;
+	background-color: darkgrey;
+	width: 500px;
+	min-height: 200px;
+	padding: 50px;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 900px) {
+	.reviewPart {
+		width: 400px;
+	}
+}

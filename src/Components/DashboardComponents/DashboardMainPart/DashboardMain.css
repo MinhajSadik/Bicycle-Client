@@ -1,0 +1,28 @@
+.DashBoardMainStyle {
+	width: 100%;
+	min-height: 600px;
+	background-image: linear-gradient(147deg, #000000ca 0%, #43434391 74%),
+		url(../../../images/loginBg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mobileNav {
+	height: 100px;
+	background-color: white;
+	width: 100%;
+	z-index: 2;
+	display: none;
+}
+@media only screen and (max-width: 900px) {
+	.desktopNav {
+		display: none;
+	}
+	.mobileNav {
+		display: block;
+	}
+	.dashboardMainPart {
+		margin-top: 100px;
+	}
+}

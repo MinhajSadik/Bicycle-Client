@@ -1,0 +1,20 @@
+.socialLinks a {
+	color: wheat;
+	font-size: 30px;
+	margin: 0 15px;
+}
+.socialLinks a:hover {
+	text-decoration: none;
+	color: #ff6347;
+}
+
+@media only screen and (max-width: 700px) {
+	.socialLinks {
+		margin: 20px 25%;
+		display: block;
+		width: 100%;
+	}
+	.copyRightAlert{
+		text-align:center;
+	}
+}

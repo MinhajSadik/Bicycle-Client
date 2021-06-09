@@ -1,0 +1,27 @@
+.featureRow {
+	transform: translateY(-10em);
+}
+.featureCol {
+	background-color: #c75239;
+	padding: 20px;
+	margin: 20px 30px;
+}
+.featureNestedDiv {
+	width: 300px;
+	border: 2px solid #fefefe;
+	padding: 20px;
+	text-align: center;
+	color: #fefefe;
+}
+
+.featureVector img {
+	width: 120px;
+	filter: brightness(0) invert(1);
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+	.featureRow {
+		transform: translateY(0em);
+	}
+}

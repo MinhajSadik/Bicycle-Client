@@ -1,0 +1,59 @@
+.serviceCol {
+	background-color: #c75239;
+	padding: 20px;
+	margin: 20px 20px;
+}
+
+.serviceCol:hover {
+	background-color: #1c1c18;
+	transition: background-color 0.9s;
+}
+
+.serviceNestedDiv {
+	width: 300px;
+	border: 1px solid #fefefe;
+	padding: 30px;
+	text-align: center;
+	color: #fefefe;
+}
+
+.serviceVector img {
+	width: 80px;
+	filter: brightness(0) invert(1);
+	margin-bottom: 10px;
+}
+
+.bookNowBtn > .btn {
+	margin: 10px auto;
+	border: none;
+	padding: 10px 22px;
+	font-size: 20px;
+	position: relative;
+}
+.bookNowBtn > .btn::before {
+	transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	content: "";
+	width: 30%;
+	height: 100%;
+	background: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.bookNowBtn > .btn.rounded {
+	border-radius: 30px;
+}
+.bookNowBtn > .btn.rounded .text-green {
+	color: #00f0b5;
+	mix-blend-mode: difference;
+}
+.bookNowBtn > .btn.rounded::before {
+	border-radius: 50px;
+	width: 15%;
+	background: #00f0b5;
+}
+.bookNowBtn > .btn.rounded:hover::before {
+	background: #00f0b5;
+	width: 100%;
+}

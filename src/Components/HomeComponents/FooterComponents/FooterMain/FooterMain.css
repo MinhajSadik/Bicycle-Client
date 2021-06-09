@@ -1,0 +1,46 @@
+.footerMainPart {
+	background-color: #1c1c18;
+	color: white;
+	margin: 0 auto;
+	padding: 100px;
+}
+.logo img {
+	height: 250px;
+	width: 250px;
+}
+.links a {
+	color: wheat;
+	width: 100%;
+	display: block;
+	margin-left: 10px;
+}
+.links a:hover {
+	text-decoration: none;
+	color: tomato;
+}
+.address,
+.phoneNumber {
+	padding: 20px;
+}
+.special-line {
+	width: 100%;
+	border-bottom: 2px solid gray;
+}
+
+@media only screen and (max-width: 900px) {
+	.footerMainPart {
+		background-color: #1c1c18;
+		color: white;
+		margin: 0 auto;
+		padding: 20px;
+	}
+	.logo {
+		text-align: center;
+	}
+
+	.allLinks {
+		text-align: center;
+		display: grid;
+		justify-content: center;
+	}
+}
