@@ -1,13 +1,13 @@
-import React, { useContext, useState } from "react";
-import "./Navbar.css";
-import { Link } from "react-router-dom";
-import logo from "../../../images/logo2.png";
-import { Button, Nav, Navbar } from "react-bootstrap";
-import { UserContext } from "../../../App";
-import UserAction from "./UserAction/UserAction";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSortDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useContext, useState } from "react";
+import { Button, Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { UserContext } from "../../../App";
+import logo from "../../../images/logo2.png";
 import profileImage from "../../../images/profile.png";
+import "./Navbar.css";
+import UserAction from "./UserAction/UserAction";
 
 const NavBar = () => {
     // eslint-disable-next-line no-unused-vars

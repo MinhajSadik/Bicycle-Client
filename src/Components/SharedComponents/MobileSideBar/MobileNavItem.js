@@ -1,26 +1,20 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faListAlt,
+    faCartPlus,
     // faTasks,
     // faPlus,
     // faUserAlt,
     // faUserShield,
-    faClipboard,
-    faSignOutAlt,
-    faCartPlus,
-    faHome,
+    faClipboard, faHome, faListAlt, faSignOutAlt
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import axios from "axios";
+import React, { useContext, useEffect, useState } from "react";
 import { Link, useRouteMatch } from "react-router-dom";
-import { useContext } from "react";
 import { UserContext } from "../../../App";
-import { useState } from "react";
-import { useEffect } from "react";
 import {
     initializeFramework,
-    logOutMethod,
+    logOutMethod
 } from "../../LogInComponents/LoginManegment/LoginManegment";
-import axios from "axios";
 // import { Nav, Navbar } from "react-bootstrap";
 import AdminSideBar from "../Sidebar/AdminSideBar";
 
