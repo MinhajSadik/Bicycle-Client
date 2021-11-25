@@ -1,8 +1,10 @@
-.logo img{
-    width: 100px;
-    height:100px;
+.logo img {
+  width: 100px;
+  height: 100px;
 }
-.navMenu{
-   margin:10px;
-   padding:10px;
+.navMenu {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
 }
